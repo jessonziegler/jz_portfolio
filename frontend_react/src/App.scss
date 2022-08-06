@@ -51,12 +51,13 @@
 }
 
 .head-text {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-weight: 800;
   text-align: center;
   color: var(--black-color);
   text-transform: capitalize;
   margin-top: 2rem;
+  white-space: nowrap;
 
   span {
     color: var(--secondary-color);

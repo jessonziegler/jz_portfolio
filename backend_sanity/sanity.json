@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "jz_portfolio"
-  },
   "api": {
     "projectId": "yl4vxloa",
     "dataset": "production"
+  },
+  "project": {
+    "name": "jz_portfolio"
   },
   "plugins": [
     "@sanity/base",

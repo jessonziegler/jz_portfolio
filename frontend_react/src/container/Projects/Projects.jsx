@@ -43,17 +43,19 @@ const Projects = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["Web App", "Mobile App", "React JS", "All"].map((item, index) => (
-          <div
-            key={index}
-            onClick={() => handleProjectsFilter(item)}
-            className={`app__work-filter-item app__flex p-text ${
-              activeFilter === item ? "item-active" : ""
-            }`}
-          >
-            {item}
-          </div>
-        ))}
+        {["Web Apps", "Audio", "Mobile Apps", "Banner Ads", "All"].map(
+          (item, index) => (
+            <div
+              key={index}
+              onClick={() => handleProjectsFilter(item)}
+              className={`app__work-filter-item app__flex p-text ${
+                activeFilter === item ? "item-active" : ""
+              }`}
+            >
+              {item}
+            </div>
+          )
+        )}
       </div>
 
       <motion.div
@@ -69,7 +71,7 @@ const Projects = () => {
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
                 transition={{
-                  duration: 0.25,
+                  duration: 0.1,
                   ease: "easeInOut",
                   staggerChildren: 0.5,
                 }}

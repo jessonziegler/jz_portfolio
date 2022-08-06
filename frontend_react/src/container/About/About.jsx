@@ -46,13 +46,16 @@ const About = () => {
       </div>
 
       <p2 className="lb">
-        My name is Jesson and I'm a Full Stack Web Developer as well as an Audio
-        Engineer. My focus is on Front-end Web Development while staying up to
-        date with the newest technologies to build creative apps in the most
-        efficient way possible. A graduate of Lighthouse Labs Full Stack Web
-        Development program with a diploma in Manufacturing Engineering from
-        Fanshawe College. I'm also a Musician and when I'm not building apps I
-        spend my time playing guitar and recording music.
+        My name is Jesson and I'm a Full Stack Web Developer as well as an
+        experienced Audio Engineer. My focus is on Front-end Web Development
+        while staying up to date with the newest technologies to build creative
+        apps in the most efficient way possible. A graduate of Lighthouse Labs
+        Full Stack Web Development program with a diploma in Manufacturing
+        Engineering from Fanshawe College. As an Audio Engineer I work from my
+        home studio and while I have some outboard gear, I mostly mix in the box
+        with Logic Pro. My full music portfolio is available upon request. I'm
+        also a Musician and when I'm not building apps or mixing I spend my time
+        playing guitar and watching stand-up comedy.
       </p2>
 
       <AwesomeButton
