@@ -173,3 +173,14 @@
     transition: 0.5s;
   }
 }
+
+#buttondiv {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  margin-top: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+.buttonpro {
+  height: auto !important;
+}
